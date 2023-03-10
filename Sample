@@ -1,0 +1,18 @@
+M = int(input())
+
+if M % 3 == 0 and M % 5 == 0:
+
+    print("Good Number")
+
+elif M % 3 == 0:
+
+    print("Bad Number")
+
+elif M % 5 == 0:
+
+    print("Poor Number")
+
+else:
+
+    print("-1")
+
